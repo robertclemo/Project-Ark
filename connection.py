@@ -3,7 +3,7 @@ import mysql.connector
 from mysql.connector import connect, Error, MySQLConnection
 # from python_mysql_dbconfig import read_dn_config
 
-cnx = mysql.connector.connect(user='admin', password='Phipsy1!',
+cnx = mysql.connector.connect(user='', password='',
                               host='127.0.0.1',
                               database='practice')
 cnx.close()
@@ -44,8 +44,8 @@ if __name__ == '__main__':
 
 conn = connect(
         host='127.0.0.1',
-        user='admin',
-        password='Phipsy1!',
+        user='',
+        password='',
         database='practice'
 )
 
