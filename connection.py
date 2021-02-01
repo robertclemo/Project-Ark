@@ -1,3 +1,4 @@
+# This is the outdated connector file. Use "connector2.py" from here on out. Feb-1-2021
 import mysql.connector
 # import python_mysql_dbconfig
 from mysql.connector import connect, Error, MySQLConnection
