@@ -5,9 +5,9 @@ from colorama import Fore, Style
 colorama.init()
 
 conn = connect(
-        host='127.0.0.1',
-        user='admin',
-        password='Phipsy1!',
+        host='',
+        user='',
+        password='',
         database='practice'
 )
 
