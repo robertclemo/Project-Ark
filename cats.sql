@@ -1,13 +1,13 @@
-CREATE TABLE IF NOT EXISTS	members
-(
-userID int PRIMARY KEY AUTO_INCREMENT,
-username varchar(10) NOT NULL,
-pass varchar(10) NOT NULL
-
-);
-
-CREATE TABLE members (userID int PRIMARY key AUTO_INCREMENT, username varchar(10) NOT NULL, pass varchar(10) NOT NULL)
-
+#CREATE TABLE IF NOT EXISTS	cats
+#(
+#userID int PRIMARY KEY AUTO_INCREMENT,
+#username varchar(10) NOT NULL,
+#pass varchar(10) NOT NULL
+#
+#);
+#
+#CREATE TABLE members (userID int PRIMARY key AUTO_INCREMENT, username varchar(10) NOT NULL, pass varchar(10) NOT NULL)
+#---------This is left over from another project, and is included here just for reference purposes--------
 ______________
 
 create table cats (name text not null, age int(3) not null, catcondition text not null, catmedicine text not null, temprement text not null, adoptable text not null)
